@@ -1,0 +1,196 @@
+/* CSS Document */
+body,h2,ul{
+	margin:0;
+	padding:0;
+	}
+body{
+	font-size:0.2rem;
+	font-family:"宋体";
+}
+header img{
+	width:6.4rem;
+	}
+section.min{
+	margin:0.1rem 0;	
+	}
+section.font div.font-right{
+	float:left;
+	}
+section.font{
+	width:6.4rem;
+	}
+section.font img{
+		margin-right:0.1rem;
+		height:0.334rem;
+		width:0.093rem;
+	    float:left;
+		}
+h2{
+		font-size: 0.28rem;
+		line-height:0.28rem;
+	    letter-spacing: 0.5px;
+		
+}
+.span1{
+    font-size: 0.187rem;
+	line-height:0.187rem;
+    color: #BEBEBE;
+    letter-spacing: 0.5px;
+}
+/* sec-1 */
+/* ------------轮播图样式----------- */
+.sec-1 .content{
+	margin-top: 0.406rem;
+	padding-bottom: 0;
+}
+.swiper1,.swiper2,.swiper3,.swiper4{
+	width: 1.5rem;
+	height: 1.070rem;
+	text-align: center;
+}
+.sp-1{
+	display: flex;
+	justify-content: space-around;
+}
+.sp-1 img{
+	width: 0.687rem;
+}
+.sp-1 p{
+	margin-top: -0.08rem;
+	font-size: 0.185rem;
+	color:#666;
+}
+.sp-main{
+	height:1.5rem;
+}
+
+.sec-2 .content,sec-3 .content,.sec-4 .content,.sec-5 .content,.sec-6 .content{
+	text-align:center; 
+	margin:0rem auto;
+	margin-top:0.2rem;
+	overflow:hidden;
+	padding-bottom:0.2rem;
+}
+.sec-2,.sec-3,.sec-4,.sec-5,.sec-6{
+	overflow:hidden;
+	margin-top:0.375rem;
+}
+.sec-3 div{
+	overflow:hidden;
+}
+ ul{
+	list-style:none;
+	overflow:hidden;
+	margin-left:0.381rem;
+}
+.sec-2{
+		border-top: 0.008rem solid #eee;
+		padding-top:0.2rem;}
+.sec-2 .content ul li{
+		float:left;
+		margin-right:0.09375rem;
+		}
+.sec-2 .content ul li img{
+		width:1.703rem;
+	}
+
+	.sec-3 .content ul li{
+		float:left;
+		margin-right:0.09375rem;
+		}
+.sec-3 .content ul li img{
+		width:1.703rem;
+		height:2.0625rem;
+	}
+.big-img{
+	margin-top:0.375rem;
+	text-align:center;
+	border-top:0.031rem #eee solid;
+	}
+.big-img img{
+	width:5.29rem;
+	padding-top:0.2rem;
+	height:2.968rem;
+	}
+.img-1{
+	border:#eee solid 0.015rem;
+	background:#fdfdfd url(../images/page-1-03.png) no-repeat 1rem;
+	}
+.img-2{
+	border:#eee solid 0.015rem;
+	background:#fdfdfd url(../images/page-1-05.png) no-repeat 1rem;
+	}
+.img-3{
+	border:#eee solid 0.015rem;
+	background:#fdfdfd url(../images/page-1-09.png) no-repeat 1rem;
+	}
+.img-4{
+	border:#eee solid 0.015rem;
+	background:#fdfdfd url(../images/page-1-10.png) no-repeat 1rem;
+	}
+
+
+
+.sec-4 .content li{
+	text-align:left;
+	width:2.593rem;
+	height:1.187rem;
+	background-size: 1.45rem;
+	margin-right:0.109rem;
+	margin-top:0.1rem;
+	}
+.sec-4 .content .list{
+	display: flex;
+	flex-wrap: wrap;             /*   分成两列   */
+	justify-content: center; 
+	}
+.four1{
+	margin-top:0.5rem;}
+.top,.bottom{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 5.68rem;
+	padding-bottom: 0.45rem;
+	border-bottom: 0.008rem solid #EEEEEE;
+}
+.left{
+text-align:center}
+.left img{
+	width:0.875rem;
+	height:0.875rem;}
+
+.center{
+	margin-top:0.1rem;
+	margin-left:0.1rem;}
+	
+.bottom{
+	margin-top:0.5rem;}
+.right img{
+	width:0.9375rem;
+	height:0.406rem;
+}
+.name{
+	margin-right:0.1rem;
+	font-size:0.218rem;}
+
+
+.sec-6 .content img{
+	width:5.343rem;
+	height:3.56rem;
+	}
+footer img{
+	width:0.375rem;
+	height:0.375rem;
+	}
+footer{
+	background:#f9f9f9;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	color:#ccc;
+	text-align:center;
+	margin-top:0.5rem;
+	border-top:0.01rem solid #ccc;
+	height:0.843rem;
+	}
