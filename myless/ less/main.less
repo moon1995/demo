@@ -1,0 +1,17 @@
+@charset "utf-8";
+body{
+    margin: 10px;
+    background-color: #ff0;
+}
+@test:200px;
+.border_01(@border_width:10px;){
+    border:@border_width solid #f00
+}
+div{
+    width:@test;
+    height:@test;
+    background: #090;
+    color: #fff;
+    margin: 40px;
+    .border_01();
+}

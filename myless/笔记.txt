@@ -1,0 +1,83 @@
+react组件创建方式:
+--函数定义无状态组件（即无形参，也无返回值，相当于写死的html，静态组件）
+--es5  
+--React.createClass()
+--es6--babel转成es5
+extends React.Component
+ 无状态组件表现只带一个render方法
+function  函数名（props）{
+return 组件内容
+}
+ReactDOM.render(
+<函数名 属性=值/>
+)
+this.props 初始化组件值
+this.state  状态变化
+react插件
+谷歌扩展程序 ，获得更多 搜react developer tools
+//getDefaultProps用来设置组件的默认值
+getInitialState设置（初始化）
+最终值this.setState(）设定
+this.refs react使用的是虚拟dom，不能通过document.get..获取，
+在一个集合中this.refs.ref来获取
+e.target返回触发事件的对象
+jsx语法：html嵌入到js 中执行
+使得创建/操纵dom十分方便，就像写html一样
+没有单引号是内置组件赋值，加单引号是字符串赋值
+jsx中组件首字母要大写，标签小写
+在jsx中嵌入js需要加{表达式，不能是if else for循环}
+jsx语法符合xml规范：
+1。标记必须关闭
+2. 只能有一个根元素
+3.{表达式}--模板--将js嵌入到jsx中
+4.false
+5.jsx中html关键字 className代替class  htmlFor代替for
+6.用表达式代替if(){}else{}
+7.{数组}自动遍历--没有key会有警告
+8.组件分类
+--内置组件：所有HTML标记，首字母必须小写
+--y用户自定义组件：首字母必须大写
+如何实现前后端分离：
+1.ajax
+2.后端模板
+    php后端模板
+.html模板页{{嵌入PHP变量数据}}，其他的PHP页面
+--smarty
+--thinkphp国产
+class写成classname
+for写成hemlfor
+disabled 不启用 默认false
+id={false}相当于id="false" 
+disabled={false} ==disabled=false
+放在标签里相当于空标记
+js方法：es5以上支持
+数组对象.map(function(数组项){
+return 处理后的数组项
+})
+jsx不能在浏览器直接使用，需通过babel转换器进行转换
+jsx语法转换时机有两种
+--及时编译（学习使用）
+--预编译（开发只用webpack）
+react特点：
+高效能
+虚拟dom
+组件化    小组件自动组合成大组件
+jsx语法
+单向数据流
+angular js不支持原生js 定时器.、不支持jQuery
+react 都支持
+react 开发环境
+react.min.js  核心文件
+react-dom.min.js  Dom文件
+browser.js jsx编译文件
+jsx语法：就是在js里写html
+ReactDOM.render（要渲染的组件，要渲染到哪里）
+react中的组件：
+==内置组件==小写==html标记
+==用户自定义组件==首字母必须大写，符合camel
+react特点：
+1.较高的性能
+2虚拟dom
+3jsx语法
+4组件化
+5单向响应的数据流

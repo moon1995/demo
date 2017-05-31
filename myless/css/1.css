@@ -1,0 +1,9 @@
+.triangel{
+width:0px;
+height:0px;
+overflow:hidden;
+background:#0ff;
+border-width:10px;
+border-color:#f00 #f00 #f00 #f00;
+border-style:solid dashed solid dashed;
+}
