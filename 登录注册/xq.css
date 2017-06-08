@@ -1,0 +1,44 @@
+body,p{
+	margin:0;
+	padding:0;	
+	}
+.form{
+	width:1000px;
+	margin:10% auto;
+	}
+.username,.password{
+		height:30px;
+		border:1px solid #393;
+		font-size:16px;
+		}
+.head{
+	height:50px;
+	background:#03c5ac;}
+.head p{
+	text-align:center;
+	line-height:50px;
+	color:#fff;
+	font-size:32px;}
+.login{
+	height:50px;
+	width:440px;
+	background:#03c5ac;
+	border:none;
+	color:#fff;
+	font-size:20px;
+	}
+.form div{
+	float:left;
+	width:500px;
+	}
+.right p{
+	font-size:12px;
+	color:#666;
+	}	
+.sign{
+	border:1px solid #393;
+	background:transparent;
+	width:80px;
+	height:30px;
+	}/* CSS Document */
+
